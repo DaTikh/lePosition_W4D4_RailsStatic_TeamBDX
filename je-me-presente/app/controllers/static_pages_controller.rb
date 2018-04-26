@@ -19,4 +19,8 @@ class StaticPagesController < ApplicationController
 
   end
 
+  def max
+
+  end
+
 end

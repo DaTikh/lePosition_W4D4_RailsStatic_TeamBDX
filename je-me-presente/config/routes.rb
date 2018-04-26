@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get '/about', to: 'static_pages#about', as: 'about'
 
+  get '/about/max', to: 'static_pages#max', as: 'max'
 
   get '/about/bab', to: 'static_pages#bab', as: 'bab'
 
