@@ -1,0 +1,10 @@
+<h1>Création</h1>
+<p>Bienvenue dans la création d'utilisateurs</p>
+<form action="/create_user" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  Ton prénom :
+  <input type="text" name="username"><br>
+  Ta bio :
+  <textarea type="text" name="bio" rows="3" cols="40">Ecris un petit mot à propos de toi ici !</textarea><br>
+  <input type="submit" value="Envoyer">
+</form>
