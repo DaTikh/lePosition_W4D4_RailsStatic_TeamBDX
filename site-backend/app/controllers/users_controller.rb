@@ -19,7 +19,7 @@ class UsersController < ApplicationController
   end
 
   def show  # Render la view du profil utilisateur
-    @user = User.find_by(username: params[:usesername])  # On trouve l'utilisateur par son pseudo
+    @user = User.find_by(username: params[:username])  # On trouve l'utilisateur par son pseudo
   end
 
 
