@@ -1,9 +1,6 @@
 class StaticPagesController < ApplicationController
 
-  def index
-  end
-
-  def create_user
+  def index  # Render la page d'accueil
   end
 
 end

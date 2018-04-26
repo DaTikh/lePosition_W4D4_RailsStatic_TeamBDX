@@ -1,26 +1,25 @@
 class UsersController < ApplicationController
 
-  def new
+  def new  # Render la view "Create_user"
   end
 
-  def new_post
-    @user = User.new
-    @user.username = params[:username]
-    @user.bio = params[:bio]
-    @user.save
-      if @user == User.last
-        redirect_to user_path"#{@user.username}"
+  def new_post  # Se déclenche à l'envoi du FORM
+    @user = User.new  # On lance la création d'un nouvel User
+    @user.username = params[:username]  # On sélectionne la value associée au pseudo
+    @user.bio = params[:bio]  # On sélectionne ensuite la bio
+    @user.save  # On enregistre le nouvel User
+      if @user == User.last  # On teste si l'enregistrement est réussi
+        redirect_to user_path"#{@user.username}"  # Si OK on redirige sur la page du nouveal User
       else
-        puts "Erreur d'entrée !"
-        redirect_to error_path
+        redirect_to error_path  # Sinon on envoie sur le message d'erreur
       end
   end
 
-  def show
-    @user = User.find_by(username: params[:use])
+  def show  # Render la view du profil utilisateur
+    @user = User.find_by(username: params[:use])  # On trouve l'utilisateur par son pseudo
   end
 
-  def error
+  def error  # Render le message d'erreur
   end
 
 end
