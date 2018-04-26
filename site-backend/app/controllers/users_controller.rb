@@ -15,11 +15,12 @@ class UsersController < ApplicationController
       end
   end
 
-  def show  # Render la view du profil utilisateur
-    @user = User.find_by(username: params[:use])  # On trouve l'utilisateur par son pseudo
-  end
-
   def error  # Render le message d'erreur
   end
+
+  def show  # Render la view du profil utilisateur
+    @user = User.find_by(username: params[:username])  # On trouve l'utilisateur par son pseudo
+  end
+
 
 end
