@@ -3,10 +3,10 @@
 Fichiers à voir :
 
 * Schéma de la BDD - /db
-[schema.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/db/schema.rb "Database")
+  [schema.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/db/schema.rb "Database")
 
 * Routes - /config
-[routes.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/config/routes.rb "Routing de l'app")
+  [routes.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/config/routes.rb "Routing de l'app")
 
 * Modèles - /app/models
 [user.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/models/user.rb "La validation username")
@@ -20,6 +20,6 @@ Fichiers à voir :
   [index.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/static_pages/index.html.erb "Accueil")
 
 - Utilisateur - /users
-+ [new.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/new.html.erb "Création")
-+ [show.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/show.html.erb "Profil")
-+ [error.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/error.html.erb "Page d'erreur")
+  * [new.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/new.html.erb "Création")
+  * [show.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/show.html.erb "Profil")
+  * [error.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/error.html.erb "Page d'erreur")
