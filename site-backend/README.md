@@ -17,7 +17,7 @@ Fichiers à voir :
 
 * Views - /app/views
   - Accueil - /static_pages
-    [index.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/static_pages/index.html.erb "Accueil")
+    * [index.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/static_pages/index.html.erb "Accueil")
 
   - Utilisateur - /users
     * [new.html.erb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/views/users/new.html.erb "Création")
