@@ -13,7 +13,7 @@ Fichiers à voir :
 
 * Contrôleurs - /app/controllers
   - [static_pages_controller.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/controllers/static_pages_controller.rb "Page d'accueil")
-  -[users_controller.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/controllers/users_controller.rb "Création utilisateur et profil")
+  - [users_controller.rb](https://github.com/DaTikh/lePosition_W4D4_RailsStatic_TeamBDX/blob/master/site-backend/app/controllers/users_controller.rb "Création utilisateur et profil")
 
 * Views - /app/views
   - Accueil - /static_pages
